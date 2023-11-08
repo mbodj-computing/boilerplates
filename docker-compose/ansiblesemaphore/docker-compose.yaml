@@ -14,14 +14,14 @@
 volumes:
   semaphore-mysql:
     external: true
-  semaphore-inventory:
-    external: true
-  semaphore-authorized-keys:
-    external: true
-  semaphore-config:
-    external: true
-  semaphore-playbooks:
-    external: true
+#   semaphore-inventory:
+#     external: true
+#   semaphore-authorized-keys:
+#     external: true
+#   semaphore-config:
+#     external: true
+#   semaphore-playbooks:
+#     external: true
 services:
   mysql:
     image: mysql:8.0
