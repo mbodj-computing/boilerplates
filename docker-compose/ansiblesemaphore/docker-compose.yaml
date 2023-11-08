@@ -52,7 +52,7 @@ services:
       - SEMAPHORE_ADMIN_PASSWORD=${SEMAPHORE_ADMIN_PASSWORD}  # change!
       - SEMAPHORE_ADMIN_NAME=${SEMAPHORE_ADMIN_NAME}
       - SEMAPHORE_ADMIN_EMAIL=${SEMAPHORE_ADMIN_EMAIL}
-      - SEMAPHORE_ADMIN=admin
+      - SEMAPHORE_ADMIN=mbodj
       - SEMAPHORE_ACCESS_KEY_ENCRYPTION=${SEMAPHORE_ACCESS_KEY_ENCRYPTION}  # add to your access key encryption !
       - ANSIBLE_HOST_KEY_CHECKING=false  # (optional) change to true if you want to enable host key checking
     volumes:
