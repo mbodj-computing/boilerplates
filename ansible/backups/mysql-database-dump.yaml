@@ -20,4 +20,4 @@
       when: restore_database | default(false)
 
   vars:
-    restore_database: false  # Set this to true if you want to restore the database
+    restore_database: "{{ restore_status }}"  # Set this to true if you want to restore the database
