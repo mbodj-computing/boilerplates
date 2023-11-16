@@ -1,4 +1,4 @@
-- hosts: ${{ hosts }}
+- hosts: "{{ hosts }}"
   become: yes
   vars:
     postgres_user: "{{ postgres_user }}"
