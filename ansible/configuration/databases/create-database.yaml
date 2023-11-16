@@ -5,11 +5,6 @@
     postgres_password: "{{ postgres_password }}"
     postgres_db: "{{ postgres_db }}"
   tasks:
-    - name: Ensure the PostgreSQL python library is installed
-      pip:
-        name: psycopg2-binary
-        state: present
-
     - name: Create a new PostgreSQL database
       postgresql_db:
         name: "{{ postgres_db }}"
