@@ -8,7 +8,7 @@
         content: |
           #!/bin/bash
           set -e # Exit on any error
-          PROXY_IP="172.16.16.223"
+          PROXY_IP="10.10.10.5"
           PROXY_PORT="3128"
           
           setup_docker_proxy() {
